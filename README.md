@@ -20,16 +20,16 @@ $$f(u) = \beta u(1-u)$$
 
 其中
 $$r = \alpha\frac{\tau}{h^2}$$
-由于 $U^n_0,U^n_{J}$ 已知且$U^n_0,U^n_{J} \neq 0$
+由于 $U^n_0,U^n_{J}$ 已知且 $U^n_0,U^n_{J} \neq 0$
 简化上式得
 <div align="center"><img style="background: white;" src="svg\ZUxt6uCYqb.svg"></div>
 
 其中
 <div align="center"><img style="background: white;" src="svg\uApcqarQKL.svg"></div>
 
-为简化表达，由于$\overrightarrow{U}^{n}$已知，不妨令
+为简化表达，由于 $\overrightarrow{U}^{n}$ 已知，不妨令
 $$D=B\overrightarrow{U}^{n}+\frac{\tau}{2}F(\overrightarrow{U}^{n})+C$$
-则$D$已知，只需求解以下方程组：
+则 $D$ 已知，只需求解以下方程组：
 $$A\overrightarrow{U}^{n+1}-\frac{\tau}{2}F(\overrightarrow{U}^{n+1})=D$$
 考虑Newton迭代法：
 $$f(x)=0 \\ x_{n+1}=x_n-\frac{f(x)}{f'(x)}$$
